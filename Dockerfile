@@ -1,4 +1,4 @@
-FROM arm64v8/ubuntu:20.04
+FROM arm64v8/ubuntu:22.04
 WORKDIR /fortressonesv
 EXPOSE 27500/udp
 ARG FTE_CONFIG=fortressone
